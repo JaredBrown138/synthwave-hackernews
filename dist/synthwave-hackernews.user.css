@@ -1,0 +1,44 @@
+/* ==UserStyle==
+@name           Synthwave HackerNews Styles
+@namespace      https://github.com/JaredBrown138/synthwave-hackernews
+@version        1.0.0
+@description    Styles for HackerNews inspired by the SynthWave '84 VSCode theme.
+@author         Jared Brown
+==/UserStyle== */
+@-moz-document domain("news.ycombinator.com") {
+  body {
+    background-color: #241b2f;
+  }
+  #hnmain {
+    width: 97%;
+  }
+  #hnmain > tbody {
+    background-color: #262335;
+  }
+  #hnmain > tbody > tr:nth-child(1) > td {
+    background-image: linear-gradient(to right, #fa28a6, #c17bfd, #48b0ff, #00d4ff, #0aecf8);
+  }
+  #hnmain > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(1) > a > img {
+    filter: brightness(80%) contrast(999%) grayscale(100%);
+    opacity: 50;
+  }
+  #pagespace {
+    heigth: 0px !important;
+  }
+  #hnmain > tbody > tr:nth-child(4) > td > table > tbody > tr > td {
+    background-image: linear-gradient(to right, #fa28a6, #c17bfd, #48b0ff, #00d4ff, #0aecf8);
+  }
+  span.yclinks > a {
+    color: #fff !important;
+  }
+  span.pagetop {
+    color: #fff;
+  }
+  span.pagetop > a {
+    color: #efefef;
+  }
+  span.pagetop > b > a {
+    color: #fff !important;
+    font-size: 18px;
+  }
+}

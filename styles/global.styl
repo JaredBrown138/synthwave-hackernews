@@ -1,0 +1,43 @@
+@require colors
+
+body
+    background-color dark-purple
+
+#hnmain
+    width 97%
+
+//inner page background
+#hnmain > tbody
+    background-color light-purple 
+
+//navbar
+#hnmain > tbody > tr:nth-child(1) > td
+    background-image linear-gradient(to right, #fa28a6, #c17bfd, #48b0ff, #00d4ff, #0aecf8)
+
+//logo
+#hnmain > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(1) > a > img
+    filter brightness(80%) contrast(999%) grayscale(100%)
+    opacity 50
+
+#pagespace
+    heigth 0px !important 
+
+//Line divider for footer
+#hnmain > tbody > tr:nth-child(4) > td > table > tbody > tr > td
+    background-image linear-gradient(to right, #fa28a6, #c17bfd, #48b0ff, #00d4ff, #0aecf8)
+
+//footer links
+span.yclinks > a
+    color white !important
+
+//navbar item vertical dividers (|x|x|)
+span.pagetop
+    color white
+
+//navbar item links
+span.pagetop > a
+    color soft-white
+
+span.pagetop > b > a
+    color white !important
+    font-size 18px
