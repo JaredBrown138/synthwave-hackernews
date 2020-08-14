@@ -1,0 +1,66 @@
+@require colors
+
+//article title
+td.title > a
+    color soft-white
+
+//article link to site
+span.sitestr
+    color pink
+
+//article points and dividers (x|x|x)
+td.subtext
+    color orange
+
+//includes article and comment form
+table.fatitem
+    padding-top 20px
+
+//comment text
+div.comment > span
+    color soft-white !important
+
+//links inside comments
+div.comment > span a
+    color #E9CD4C !important
+
+//reply link/button for comments
+div.reply > p > font > u > a
+    color cyan !important
+
+//links to HN users
+a.hnuser
+    color pink !important
+
+//comment age link
+span.age > a
+    color orange !important
+
+//comment form submit button
+input[type="submit"]
+    background none
+    border-width 2px
+    border-style solid
+    border-radius 20px
+    padding 5px
+    border-image linear-gradient(to top, #fc3ba1, #ff4f8f, #ff6581, #ff7a78, #ff8d75, #ff9870, #ffa36b, #ffaf69, #fcb85e, #f5c254, #eacd4c, #dcd848)
+    -webkit-border-image linear-gradient(to top, #fc3ba1, #ff4f8f, #ff6581, #ff7a78, #ff8d75, #ff9870, #ffa36b, #ffaf69, #fcb85e, #f5c254, #eacd4c, #dcd848)
+    border-image-slice 10
+    color soft-white
+    font-weight bold
+    font-family "Courier New", Courier, monospace
+
+//comment form textarea
+form[action="comment"] > textarea
+    background: none
+    background none
+    border-width 2px
+    border-style solid
+    border-radius 20px
+    padding 5px
+    border-image linear-gradient(to right, #fa28a6, #c17bfd, #48b0ff, #00d4ff, #0aecf8)
+    -webkit-border-image linear-gradient(to right, #fa28a6, #c17bfd, #48b0ff, #00d4ff, #0aecf8)
+    border-image-slice 10
+    color soft-white
+    font-weight bold
+    font-family "Courier New", Courier, monospace

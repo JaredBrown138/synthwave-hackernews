@@ -1,0 +1,25 @@
+@require colors
+
+//news article title
+td.title > a
+    color soft-white
+
+//news article site link
+span.sitebit > a > span
+    color pink
+
+//spacers below articles
+tr.spacer
+    height 10px !important
+
+//news article subtext (points and dividers |X|x|)
+td.subtext
+    color orange
+
+//news article comments link
+td.subtext > a:nth-child(6)
+    color cyan !important
+
+//padding for the top of the first article
+table.itemlist > tbody > tr:nth-child(1) > td
+    padding-top 10px !important
