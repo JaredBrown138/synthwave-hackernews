@@ -54,7 +54,7 @@
     font-family: "Courier New", Courier, monospace;
   }
 }
-@-moz-document url-prefix("https://news.ycombinator.com/news") {
+@-moz-document url-prefix("https://news.ycombinator.com/news"), url-prefix("https://news.ycombinator.com/ask") {
   td.title > a {
     color: #efefef;
   }
