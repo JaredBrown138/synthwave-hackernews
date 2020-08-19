@@ -67,7 +67,7 @@
   td.subtext {
     color: #d77e72;
   }
-  td.subtext > a:nth-child(6) {
+  td.subtext > a[href^="item?id="] {
     color: #36ecc4 !important;
   }
   table.itemlist > tbody > tr:nth-child(1) > td {
