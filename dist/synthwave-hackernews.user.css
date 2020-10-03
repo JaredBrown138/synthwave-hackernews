@@ -137,3 +137,29 @@
     font-family: "Courier New", Courier, monospace;
   }
 }
+@-moz-document url-prefix("https://news.ycombinator.com/threads") {
+  tr.athing > td {
+    padding-top: 20px;
+  }
+  tr.athing table > tbody > tr:nth-child(1) > td {
+    background-image: none !important;
+  }
+  tr.athing table span.commtext {
+    color: #fff !important;
+  }
+  tr.athing span.comhead {
+    color: #d77e72;
+  }
+  div.comment > span {
+    color: #efefef !important;
+  }
+  a.hnuser {
+    color: #dc7ed1 !important;
+  }
+  span.storyon > a {
+    color: #dc7ed1;
+  }
+  div.reply > p > font > u > a {
+    color: #36ecc4 !important;
+  }
+}

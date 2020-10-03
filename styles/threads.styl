@@ -1,0 +1,34 @@
+@require colors
+
+//padding for the top of the first article
+tr.athing > td
+    padding-top 20px
+
+//thread
+tr.athing table > tbody > tr:nth-child(1) > td
+    // Override gradient from global.styl
+    background-image none !important
+
+//thread text
+tr.athing table span.commtext
+    color white !important
+
+//point text and pipes
+tr.athing span.comhead
+    color orange
+
+//comment text
+div.comment > span
+    color soft-white !important
+
+//links to HN users
+a.hnuser
+    color pink !important
+
+//article link to site
+span.storyon > a
+    color pink
+
+//reply link/button for comments
+div.reply > p > font > u > a
+    color cyan !important
