@@ -1,0 +1,42 @@
+@require colors
+
+//Space between menu bar and page contents
+#hnmain > tbody > tr:nth-child(3) > td
+    padding-top: 30px
+
+//page text to white
+td
+    color white !important
+
+//submit button
+input[type="submit"]
+    background none
+    border-width 2px
+    border-style solid
+    border-radius 20px
+    padding 5px
+    border-image linear-gradient(to top, #fc3ba1, #ff4f8f, #ff6581, #ff7a78, #ff8d75, #ff9870, #ffa36b, #ffaf69, #fcb85e, #f5c254, #eacd4c, #dcd848)
+    -webkit-border-image linear-gradient(to top, #fc3ba1, #ff4f8f, #ff6581, #ff7a78, #ff8d75, #ff9870, #ffa36b, #ffaf69, #fcb85e, #f5c254, #eacd4c, #dcd848)
+    border-image-slice 10
+    color soft-white
+    font-weight bold
+    font-family "Courier New", Courier, monospace
+
+//title, url, and text input boxes
+input[name="title"], input[name="url"], textarea[name="text"]
+    background: none
+    background none
+    border-width 2px
+    border-style solid
+    border-radius 20px
+    padding 5px
+    border-image linear-gradient(to right, #fa28a6, #c17bfd, #48b0ff, #00d4ff, #0aecf8)
+    -webkit-border-image linear-gradient(to right, #fa28a6, #c17bfd, #48b0ff, #00d4ff, #0aecf8)
+    border-image-slice 10
+    color soft-white
+    font-weight bold
+    font-family "Courier New", Courier, monospace
+
+//bookmarklet link pink
+a[href="bookmarklet.html"]
+    color pink
