@@ -162,6 +162,9 @@
   div.reply > p > font > u > a {
     color: #36ecc4 !important;
   }
+  span.comhead > a[href*="edit?id="] {
+    color: #36ecc4 !important;
+  }
 }
 @-moz-document url-prefix("https://news.ycombinator.com/newcomments") {
   span.sitestr {
@@ -196,5 +199,70 @@
   }
   span.par > a {
     color: #36ecc4 !important;
+  }
+}
+@-moz-document url-prefix("https://news.ycombinator.com/reply") {
+  td.title > a {
+    color: #efefef;
+  }
+  span.sitestr {
+    color: #dc7ed1;
+  }
+  td.subtext {
+    color: #d77e72;
+  }
+  table.fatitem {
+    padding-top: 20px;
+  }
+  div.comment > span {
+    color: #efefef !important;
+  }
+  div.comment > span a {
+    color: #e9cd4c !important;
+  }
+  div.reply > p > font > u > a {
+    color: #36ecc4 !important;
+  }
+  a.hnuser {
+    color: #dc7ed1 !important;
+  }
+  span.age > a {
+    color: #d77e72 !important;
+  }
+  input[type="submit"] {
+    background: none;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    border-image: linear-gradient(to top, #fc3ba1, #ff4f8f, #ff6581, #ff7a78, #ff8d75, #ff9870, #ffa36b, #ffaf69, #fcb85e, #f5c254, #eacd4c, #dcd848);
+    -webkit-border-image: linear-gradient(to top, #fc3ba1, #ff4f8f, #ff6581, #ff7a78, #ff8d75, #ff9870, #ffa36b, #ffaf69, #fcb85e, #f5c254, #eacd4c, #dcd848);
+    border-image-slice: 10;
+    color: #efefef;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+  }
+  form[action="comment"] > textarea {
+    background: none;
+    background: none;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    border-image: linear-gradient(to right, #fa28a6, #c17bfd, #48b0ff, #00d4ff, #0aecf8);
+    -webkit-border-image: linear-gradient(to right, #fa28a6, #c17bfd, #48b0ff, #00d4ff, #0aecf8);
+    border-image-slice: 10;
+    color: #efefef;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+  }
+  span.comhead {
+    color: #d77e72;
+  }
+  span.par > a {
+    color: #36ecc4;
+  }
+  span.storyon > a {
+    color: #dc7ed1;
   }
 }
