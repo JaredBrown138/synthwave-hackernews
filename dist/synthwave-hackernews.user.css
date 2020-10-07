@@ -163,3 +163,38 @@
     color: #36ecc4 !important;
   }
 }
+@-moz-document url-prefix("https://news.ycombinator.com/newcomments") {
+  span.sitestr {
+    color: #dc7ed1;
+  }
+  td.subtext {
+    color: #d77e72;
+  }
+  table.fatitem {
+    padding-top: 20px;
+  }
+  div.comment > span {
+    color: #efefef !important;
+  }
+  div.comment > span a {
+    color: #e9cd4c !important;
+  }
+  div.reply > p > font > u > a {
+    color: #36ecc4 !important;
+  }
+  a.hnuser {
+    color: #dc7ed1 !important;
+  }
+  span.age > a {
+    color: #d77e72 !important;
+  }
+  tr.athing span.comhead {
+    color: #d77e72;
+  }
+  span.storyon > a {
+    color: #dc7ed1 !important;
+  }
+  span.par > a {
+    color: #36ecc4 !important;
+  }
+}
