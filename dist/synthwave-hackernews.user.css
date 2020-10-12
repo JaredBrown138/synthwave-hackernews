@@ -367,4 +367,34 @@
   option {
     color: #000;
   }
+  a.hnuser {
+    color: #dc7ed1;
+  }
+  a[href^="front"] {
+    color: #dc7ed1 !important;
+  }
+  a[href="changepw"],
+  a[href="changepw"]:visited {
+    color: #36ecc4;
+  }
+  a[href^="submitted?id="],
+  a[href^="submitted?id="]:visited {
+    color: #d77e72;
+  }
+  a[href^="threads?id="],
+  a[href^="threads?id="]:visited {
+    color: #dc7ed1;
+  }
+  a[href="hidden"],
+  a[href="hidden"]:visited {
+    color: #36ecc4;
+  }
+  a[href^="upvoted"],
+  a[href^="upvoted"]:visited {
+    color: #d77e72;
+  }
+  a[href^="favorites"],
+  a[href^="favorites"]:visited {
+    color: #dc7ed1;
+  }
 }

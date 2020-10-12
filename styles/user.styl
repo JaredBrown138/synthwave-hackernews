@@ -62,3 +62,35 @@ select[name="showd"], select[name="nopro"]
 //dropdown options
 option
     color black
+
+//link to user
+a.hnuser
+    color pink
+
+//created link
+a[href^="front"]
+    color pink !important
+
+//change password link
+a[href="changepw"], a[href="changepw"]:visited
+    color cyan
+
+//submissions link
+a[href^="submitted?id="], a[href^="submitted?id="]:visited
+    color orange
+
+//comments link
+a[href^="threads?id="], a[href^="threads?id="]:visited
+    color pink
+
+//hidden link
+a[href="hidden"], a[href="hidden"]:visited
+    color cyan
+
+//upvoted links
+a[href^="upvoted"], a[href^="upvoted"]:visited
+    color orange
+
+//favorite links
+a[href^="favorites"], a[href^="favorites"]:visited
+    color pink
