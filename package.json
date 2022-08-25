@@ -4,7 +4,8 @@
   "description": "A Custom UserCSS Theme for Hacker News Based on the Synthwave Theme for VS Code",
   "main": "index.js",
   "scripts": {
-    "start": "stylus -w styles\\main.styl -o dist\\synthwave-hackernews.user.css",
+    "start": "stylus -w styles styles/main.styl -o dist/synthwave-hackernews.user.css",
+    "build": "stylus styles/main.styl -o dist/synthwave-hackernews.user.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jared Brown",
