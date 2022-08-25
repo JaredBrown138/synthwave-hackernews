@@ -1,5 +1,8 @@
 @require colors
 
+td.title > a:visited
+    color grey
+
 //news article title
 td.title > a
     color soft-white
@@ -23,11 +26,3 @@ td.subtext > a[href^="item?id="]
 //padding for the top of the first article
 table.itemlist > tbody > tr:nth-child(1) > td
     padding-top 10px !important
-
-
-//for /show - top of the page rules
-table.itemlist > tbody > tr:nth-of-type(2):not(tr[class="athing"]) > td
-    padding-top 10px
-    color soft-white
-    a
-        color cyan !important
