@@ -29,7 +29,7 @@
   #pagespace {
     height: 0px !important;
   }
-  #hnmain > tbody > tr:nth-child(4) > td > table > tbody > tr > td {
+  #hnmain > tbody > tr:nth-child(4) > td > table > tbody > tr > td[bgcolor="#ff6600"] {
     background-image: linear-gradient(to right, #fa28a6, #c17bfd, #48b0ff, #00d4ff, #0aecf8);
   }
   span.yclinks > a {
@@ -53,8 +53,14 @@
     border-radius: 3px;
     font-family: "Courier New", Courier, monospace;
   }
+  .admin td {
+    color: #fff;
+  }
 }
 @-moz-document url-prefix("https://news.ycombinator.com"), url-prefix("https://news.ycombinator.com/news"), url-prefix("https://news.ycombinator.com/ask"), url-prefix("https://news.ycombinator.com/show") {
+  td.title > a:visited {
+    color: #808080;
+  }
   td.title > a {
     color: #efefef;
   }
@@ -72,13 +78,6 @@
   }
   table.itemlist > tbody > tr:nth-child(1) > td {
     padding-top: 10px !important;
-  }
-  table.itemlist > tbody > tr:nth-of-type(2):not(tr[class="athing"]) > td {
-    padding-top: 10px;
-    color: #efefef;
-  }
-  table.itemlist > tbody > tr:nth-of-type(2):not(tr[class="athing"]) > td a {
-    color: #36ecc4 !important;
   }
 }
 @-moz-document url-prefix("https://news.ycombinator.com/item") {
@@ -201,7 +200,16 @@
     color: #36ecc4 !important;
   }
 }
-@-moz-document url-prefix("https://news.ycombinator.com/reply") {
+@-moz-document url-prefix("https://news.ycombinator.com/show") {
+  table.itemlist > tbody > tr:nth-of-type(2):not(tr[class="athing"]) > td {
+    padding-top: 10px;
+    color: #efefef;
+  }
+  table.itemlist > tbody > tr:nth-of-type(2):not(tr[class="athing"]) > td a {
+    color: #36ecc4 !important;
+  }
+}
+@-moz-document url-prefix("https://news.ycombinator.com/reply"), url-prefix("https://news.ycombinator.com/edit") {
   td.title > a {
     color: #efefef;
   }
