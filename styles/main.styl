@@ -24,7 +24,11 @@
 @-moz-document url-prefix("https://news.ycombinator.com/newcomments")
     @require newcomments
 
-@-moz-document url-prefix("https://news.ycombinator.com/reply")
+@-moz-document url-prefix("https://news.ycombinator.com/show")
+    @require show
+
+@-moz-document url-prefix("https://news.ycombinator.com/reply"),
+                url-prefix("https://news.ycombinator.com/edit")
     @require reply
 
 @-moz-document url-prefix("https://news.ycombinator.com/submit")
